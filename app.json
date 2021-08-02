@@ -1,5 +1,5 @@
 {
-  "name": "Ansiltech",
+  "name": "TG_FILTER",
   "description": "Telegram's sassiest group manager. Modular Telegram group autofilter bot!",
   "logo": "https://telegra.ph/file/d304ebee70558e256766b.jpg",
   "keywords": [
@@ -22,6 +22,14 @@
     "BOT_TOKEN"
       "description": "Your Bot Token From @BotFather.",
       "value": ""
+    },
+    "DB_URI"
+      "description": "Your Mongo DB URL Obtained From mongodb.com.",
+      "value": ""
+    },
+     "COMMAND_HAND_LER"
+       "description":Set this one with only one the symbol to use it before your command to run like . , ' `
+       "value": ""
 
     }
   },
