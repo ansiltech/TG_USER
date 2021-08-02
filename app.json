@@ -1,6 +1,6 @@
 {
   "name": "Ansiltech",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "description": "Telegram's sassiest group manager. Modular Telegram group autofilter bot!",
   "logo": "https://telegra.ph/file/d304ebee70558e256766b.jpg",
   "keywords": [
     "telegram",
@@ -10,10 +10,14 @@
     "3"
   ],
   "repository": "https://github.com/ansiltech/TG_USER.git",
-  "env": {
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable env variables",
-      "value": "ANYTHING"
+   },
+    "API_HASH": {
+      "description": "Your API Hash From my.telegram.org or @UseTGXBot.",
+      "value": ""
+   },
+    "API_ID": {
+      "descrption": "Your APP ID From my.telegram.org or @UseTGXBot.",
+      "value": ""
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
