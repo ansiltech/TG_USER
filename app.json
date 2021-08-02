@@ -2,7 +2,7 @@
   "name": "TG_FILTER",
   "description": "Telegram's sassiest group manager. Modular Telegram group autofilter bot!",
   "logo": "https://telegra.ph/file/d304ebee70558e256766b.jpg",
-  "keywords": [
+  "keywords": [/start,/purge,/help]
     "telegram",
     "best",
     "group",
