@@ -1,51 +1,36 @@
 {
-  "name": "TG_USER",
-  "description": "A modular telegram Python bot running on python3 with an sqlalchemy database",
+  "name": "Ansiltech",
+  "description": "Telegram's sassiest group manager. Modular Telegram group autofilter bot!",
+  "logo": "https://telegra.ph/file/d304ebee70558e256766b.jpg",
   "keywords": [
+    "telegram",
+    "best",
     "group",
-    "AutoFilter",
-    "2"
-  ], "https://github.com/ansiltech/TG_USER.git",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
+    "autofilter",
+    "3"
+  ],
+  "repository": "https://github.com/ansiltech/TG_USER.git",
+   },
+    "API_HASH": {
+      "description": "Your API Hash From my.telegram.org or @UseTGXBot.",
+      "value": ""
+   },
+    "API_ID": {
+      "descrption": "Your APP ID From my.telegram.org or @UseTGXBot.",
+      "value": ""
     },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
+    "BOT_TOKEN"
+      "description": "Your Bot Token From @BotFather.",
+      "value": ""
+
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
-  "image": "heroku/ruby",
-  "addons": [
-    "openredis",
-    {
-      "plan": "mongolab:shared-single-small",
-      "as": "MONGO"
-    },
+  "addons": [/welcome]
     {
       "plan": "heroku-postgresql",
       "options": {
         "version": "10"
-
-    }
-  ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
       }
     }
-  }
+  ]
 }
